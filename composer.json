@@ -20,7 +20,7 @@
         }
     },
     "require": {
-        "php": ">=7.0",
+        "php": ">=7.2",
         "psr/container": "^1.0"
     },
     "require-dev": {
@@ -32,6 +32,7 @@
         "test": [
             "composer validate --no-interaction",
             "vendor/bin/covers-validator",
+            "cp phpunit.xml.dist phpunit.xml",
             "vendor/bin/phpunit"
         ],
         "cs": [
