@@ -2,7 +2,7 @@
     "name": "alicemajere/wonderland-[NAME]",
     "description": "[DESCRIPTION]",
     "type": "library",
-    "license": "MIT License",
+    "license": "MIT",
     "authors": [
         {
             "name": "Alice Praud",
